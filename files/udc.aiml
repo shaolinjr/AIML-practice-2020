@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
   <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
+    <pattern>Olá</pattern>
+    <template>
+        <random>
+            <li>Olá, como vai?</li>
+        <li>Opa! E aí?</li>
+        <li>Oi, tudo bem?</li>
+        </random>
+    </template>
   </category>
+  
+  <category>
+    <pattern>Oi</pattern>
+    <template>
+        <srai>Olá</srai>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>vou bem</pattern>
+    <template>
+        <random>
+            <li>Que ótimo! Eu estou fantástico hoje! Qual o seu nome?</li>
+            <li>Ufa... Fico feliz em saber. Qual o seu nome?</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>não vou bem</pattern>
+    <template>
+        <random>
+            <li>Oh não! Que pena... Eu estou fantástico hoje! Qual o seu nome?</li>
+        <li>Poxa vida... Qual o seu nome?</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>não vou bem</pattern>
+    <template>
+        <random>
+            <li>Oh não! Que pena... Eu estou fantástico hoje!</li>
+        <li>Poxa vida... Tem algo em que eu possa fazer para ajudar?</li>
+        </random>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>não vou bem</pattern>
+    <template>
+        <random>
+            <li>Oh não! Que pena... Eu estou fantástico hoje!</li>
+        <li>Poxa vida... Tem algo em que eu possa fazer para ajudar?</li>
+        </random>
+    </template>
+  </category>
+  
 </aiml>
